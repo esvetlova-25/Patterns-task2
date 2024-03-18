@@ -23,7 +23,7 @@ import static data.DataGenerator.getRandomPassword;
 class AuthTest {
 
     @BeforeEach
-    static void setUp() {
+    void setUp() {
         open("http://localhost:9999/");
     }
 
